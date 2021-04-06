@@ -1,16 +1,17 @@
-import React, { Component, useEffect, useState } from "react"
-import { Link } from "gatsby"
+import React from "react"
 import Carousel from 'react-bootstrap/Carousel'
 
-import Container from 'react-bootstrap/Container';
 import Header from "./templates/header"
+import { Helmet } from "react-helmet"
 
-import { Button, Alert, Col, Row, Modal } from 'react-bootstrap/';
+import { Col, Row } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import ex1 from "../images/screenshots/1.png"
 import ex2 from "../images/screenshots/2.png"
 import ex3 from "../images/screenshots/3.jpg"
+
+import favicon from "../images/favicon.jpg"
 
 
 // styles
@@ -144,6 +145,11 @@ const IndexPage = () => {
   return (<>
     {/* ROW ONE */}
     <Row className="sidebar">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>OLTO CONCEPTS</title>
+        <link rel="shortcut icon" type="image/jpg" href={favicon}/>
+      </Helmet>
       <Header></Header>
       <Col sm={9} dismissible variant="danger" className="tohide">
         <div className="d-flex flex-column my-auto">

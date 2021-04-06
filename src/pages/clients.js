@@ -1,6 +1,8 @@
 import React from "react"
-import { Row, Col, Alert, Image, Container } from 'react-bootstrap/'
+import { Row, Col } from 'react-bootstrap/'
 import SmallHeader from "./templates/smallheader"
+import { Helmet } from "react-helmet"
+
 import who from "../images/clients/who.png"
 import varfaj from "../images/clients/varfaj.png"
 import he from "../images/clients/happyendings.png"
@@ -9,14 +11,20 @@ import wrbb from "../images/clients/wrbb.png"
 import maker from "../images/clients/makegroup.png"
 import arati from "../images/clients/arati.png"
 
-
 import Logoicon from "../components/logo-icon"
+
+import favicon from "../images/favicon.jpg"
 
 
 function ClientsPage(props) {
 
   return (<>
     <Row className="sidebar">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>OLTO CONCEPTS: CLIENTS</title>
+        <link rel="shortcut icon" type="image/jpg" href={favicon} />
+      </Helmet>
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
         <div className="main-content d-flex flex-row flex-wrap align-content-center justify-content-center">

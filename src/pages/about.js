@@ -1,12 +1,19 @@
 import React from "react"
 import { Row, Col, Alert, Container } from 'react-bootstrap/'
+import { Helmet } from "react-helmet"
 import SmallHeader from "./templates/smallheader"
+
 import frontBack from "../images/backandforthcolor.gif"
 
+import favicon from "../images/favicon.jpg"
 
 function AboutPage(props) {
   return (<Row className="sidebar">
-
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>OLTO CONCEPTS: CLIENTS</title>
+      <link rel="shortcut icon" type="image/jpg" href={favicon} />
+    </Helmet>
     <SmallHeader></SmallHeader>
 
     <Col sm={9} dismissible variant="danger">
