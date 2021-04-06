@@ -20,7 +20,7 @@ function Header(props) {
       {/* ROW ONE */}
 
 
-      <Col md={3} dismissible variant="danger" className="sidebar-content w-10">
+      <Col sm={3} dismissible variant="danger" className="sidebar-content w-10">
 
         <Container>
           <br></br>
