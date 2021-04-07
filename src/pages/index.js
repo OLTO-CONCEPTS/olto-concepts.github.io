@@ -7,9 +7,9 @@ import { Helmet } from "react-helmet"
 import { Col, Row } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import ex1 from "../images/screenshots/1.png"
-import ex2 from "../images/screenshots/2.png"
-import ex3 from "../images/screenshots/3.jpg"
+import ex1 from "../images/screenshots/annie.png"
+import ex2 from "../images/screenshots/happy.png"
+import ex3 from "../images/screenshots/make.png"
 
 import favicon from "../images/favicon.jpg"
 
