@@ -19,7 +19,7 @@ import favicon from "../images/favicon.jpg"
 function ClientsPage(props) {
 
   return (<>
-    <Row className="sidebar">
+    <Row id="iosHeight" className="sidebar">
       <Helmet>
         <meta charSet="utf-8" />
         <title>OLTO CONCEPTS: CLIENTS</title>
@@ -27,7 +27,7 @@ function ClientsPage(props) {
       </Helmet>
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
-        <div className="main-content d-flex flex-row flex-wrap align-content-center justify-content-center">
+        <div id="need-scroll" className="main-content d-flex flex-row flex-wrap align-content-center justify-content-center">
           <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">
             <Logoicon link={who} ></Logoicon>
           </a>

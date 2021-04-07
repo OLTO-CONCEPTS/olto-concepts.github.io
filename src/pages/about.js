@@ -8,7 +8,8 @@ import frontBack from "../images/backandforthcolor.gif"
 import favicon from "../images/favicon.jpg"
 
 function AboutPage(props) {
-  return (<Row className="sidebar">
+  return (
+  <Row id="iosHeight" className="sidebar">
     <Helmet>
       <meta charSet="utf-8" />
       <title>OLTO CONCEPTS: CLIENTS</title>

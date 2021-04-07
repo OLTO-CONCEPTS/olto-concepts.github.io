@@ -20,7 +20,7 @@ function Header(props) {
       {/* ROW ONE */}
 
 
-      <Col sm={3} dismissible variant="danger" className="sidebar-content w-10">
+      <Col sm={3} id="iosHeight" dismissible variant="danger" className="sidebar-content big-header w-10">
 
         <Container>
           <br></br>

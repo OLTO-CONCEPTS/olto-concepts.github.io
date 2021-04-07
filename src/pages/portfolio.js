@@ -17,7 +17,7 @@ import favicon from "../images/favicon.jpg"
 function PortfolioPage(props) {
   return (<>
     {/* ROW ONE */}
-    <Row className="sidebar">
+    <Row id="iosHeight" className="sidebar">
       <Helmet>
         <meta charSet="utf-8" />
         <title>OLTO CONCEPTS</title>
@@ -25,7 +25,7 @@ function PortfolioPage(props) {
       </Helmet>
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
-        <div className="d-flex flex-column my-auto">
+        <div className="d-flex flex-column my-auto main-content">
             <Carousel fade className="carousel mx-auto">
               <Carousel.Item>
                 <img className="d-block w-100 car-border"

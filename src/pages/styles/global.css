@@ -36,9 +36,11 @@
     padding-left:2% !important;
 } 
 
+html,
 body {
     overflow-x: hidden !important;
-    max-width: 100%;
+    position: relative;
+    max-width: 100% !important;
 }
 
 .face-imgs {
@@ -49,6 +51,12 @@ body {
     z-index: -1;
 }
 
+@supports (-webkit-touch-callout: none) {
+    #iosHeight {
+      height: -webkit-fill-available !important;
+    }
+  }
+  
 @media (max-width:575px)  { 
     .tohide {
         display: none !important;
@@ -62,9 +70,7 @@ body {
         top: 50%;
         margin-top: -45%;
     }
-    .main-content {
-        height: 100% !important;
-    }
+    
     .carousel {
         width: 90vw !important;
     }
@@ -75,9 +81,26 @@ body {
     #bottom-text {
         font-size: 1em !important;
     }
+    .logo {
+        margin-top: 15px !important;
+    }
+    .big-header {
+        overflow: hidden !important;
+    }
+    .about-box {
+        max-width: 80vw !important;
+    }
 }
 
-@media (max-width:940px)  { 
+
+@media (max-width:440px)  { 
+    .face-imgs>img {
+        transform: scale(1.3, 1.3);
+        background-color: #020202;
+    }
+}
+
+@media (max-width:430px)  { 
     #bottom-text {
         font-size: 1.5vw;
     }
