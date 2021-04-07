@@ -1,6 +1,6 @@
 import React from "react"
  
-import {Alert, Col, Image, Container} from 'react-bootstrap/';
+import {Image} from 'react-bootstrap/';
 
 
 

@@ -9,7 +9,7 @@ import favicon from "../images/favicon.jpg"
 
 function AboutPage(props) {
   return (
-  <Row id="iosHeight" className="sidebar">
+  <Row id="iosHeight" className="sidebar about-back">
     <Helmet>
       <meta charSet="utf-8" />
       <title>OLTO CONCEPTS: CLIENTS</title>
