@@ -28,10 +28,10 @@ function SmallHeader(props) {
           <br></br>
 
           <div className="tohide">
-          <h1><a href="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></a></h1>
-          <h1><a href="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></a></h1>
-          <h1><a href="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></a></h1>
-          <h1><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h1>
+            <h1><a href="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></a></h1>
+            <h1><a href="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></a></h1>
+            <h1><a href="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></a></h1>
+            <h1><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h1>
           </div>
 
 
@@ -46,30 +46,57 @@ function SmallHeader(props) {
               <Modal className="contact_form" show={show} onHide={handleClose} animation={false}  >
                 <Container className="formModal">
                   <form onSubmit={handleSubmit} >
+
                     <h1 className="text-white py-2">CONTACT US</h1>
+
+
                     <input
                       id="email"
                       type="email"
                       name="email"
+                      placeholder="Email"
                     />
                     <ValidationError
                       prefix="Email"
                       field="email"
                       errors={state.errors}
-                    /><br></br>
-                    <textarea
-                      id="message"
-                      name="message"
                     />
-                    <ValidationError
-                      prefix="Message"
-                      field="message"
-                      errors={state.errors}
-                    /><br></br>
-                    <h1><div onClick={handleClose} type="submit" disabled={state.submitting} className="logo-redirect logo slatt">
-                      SUBMIT</div></h1>
+
+
+
+                    <Row>
+                      <br></br>
+                      <br></br>
+                      <Container>
+
+                        <br></br>
+
+                        <textarea className="w-100"
+                          id="message"
+                          name="message"
+                          placeholder="Message"
+                        >
+
+
+                        </textarea>
+                        <ValidationError
+                          prefix="Message"
+                          field="message"
+                          errors={state.errors}
+                          className="Content-Form"
+                        />
+                      </Container>
+
+                    </Row>
+
+
+                    <div onClick={handleClose} type="submit" disabled={state.submitting} className="logo-redirect logo slatt">
+                      <h1 className="submit-button">
+                        SUBMIT</h1></div>
+
+
                   </form>
-                  
+
                 </Container>
               </Modal>
             </Container>

@@ -48,13 +48,12 @@ function Header(props) {
                     
                     <h1 className="text-white py-2">CONTACT US</h1>
                     
-                    <Container>
-                    <Row className="">
-                    <h3 class="text-white">Email: </h3><input
+                    
+                    <input
                       id="email"
                       type="email"
                       name="email"
-                      className="formLabel"
+                      placeholder="Email"
                     />
                     <ValidationError
                       prefix="Email"
@@ -62,10 +61,6 @@ function Header(props) {
                       errors={state.errors}
                     />
                     
-                    </Row>
-
-                    
-                    </Container>
 
 
                     <Row>
@@ -73,15 +68,14 @@ function Header(props) {
                     <br></br>
                     <Container>
                     
+                    <br></br>
 
-                    <textarea className="h-100 w-100"
+                    <textarea className="w-100"
                       id="message"
                       name="message"
-                      
+                      placeholder="Message"
                     > 
                     
-
-
 
                     </textarea>
                     <ValidationError
@@ -93,7 +87,7 @@ function Header(props) {
                     </Container>
 
                     </Row>
-                    <br></br>
+
 
                     <div onClick={handleClose} type="submit" disabled={state.submitting} className="logo-redirect logo slatt">
                       <h1 className="submit-button">
