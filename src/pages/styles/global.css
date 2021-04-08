@@ -66,6 +66,7 @@ body {
     }
     .portfolio-tag {
         margin-bottom: 10vh !important;
+        font-size: 2em !important;
     }
     .carousel {
         width: 90vw !important;
