@@ -50,19 +50,6 @@ body {
     background-color: #020202;
     z-index: -1;
 }
-
-@supports (-webkit-touch-callout: none) {
-    #iosHeight {
-        height: -webkit-fill-available !important;
-    }
-    .face-imgs {
-        display: none !important;
-    }
-    .about-back {
-        background-image: url("../../images/backandforth.gif");
-        background-size: cover;
-    }
-  }
   
 @media (max-width:575px)  { 
     .tohide {
@@ -77,9 +64,12 @@ body {
         top: 50%;
         margin-top: -45%;
     }
-    
+    .portfolio-tag {
+        margin-bottom: 10vh !important;
+    }
     .carousel {
         width: 90vw !important;
+        margin-bottom: 35vh !important;
     }
     #bottom-text {
         background-color: #020202;
@@ -109,6 +99,25 @@ body {
         font-size: 1.5vw;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    #iosHeight {
+        height: -webkit-fill-available !important;
+    }
+    .face-imgs {
+        display: none !important;
+    }
+    .about-back {
+        background-image: url("../../images/backandforth.gif");
+        background-size: cover;
+    }
+    .carousel {
+        margin-bottom: 30vh !important;
+    }
+    .portfolio-tag {
+        margin-top: 5vh !important;
+    }
+  }
 
 @media (min-width:1520px)  { 
     p {
@@ -362,7 +371,18 @@ input {
 }
 
 .submit-button {
-    background-color:black;
-    color:white;
+    background-color:#020202;
+    color:#f2f2f2;
 }
 
+.portfolio-tag {
+    position: absolute;
+    bottom: 50px;
+    background-color:#020202;
+    color:#f2f2f2;
+    z-index: 3;
+    left: 50%;
+    font-size: 2em;
+    transform: translateX(-50%);
+    background-color: #020202;
+}
