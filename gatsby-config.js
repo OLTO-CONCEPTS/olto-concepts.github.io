@@ -7,6 +7,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "react-bootstrap",
     "gatsby-plugin-transition-link",
+    "gatsby-plugin-netlify-cache",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",

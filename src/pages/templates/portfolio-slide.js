@@ -27,7 +27,7 @@ function PortfolioSlider(props) {
                                 <h3 className="mb-0 py-2  portfolio-title">Annie's Tomorrow Project</h3>
                             </Col>
                             <Col lg={6} className="my-auto">
-                                <p className="mb-0">Website creation, brand identity.</p>
+                                <p className="mb-0">Website creation, brand identity</p>
                             </Col>
                         </Row>
                     </Container>
