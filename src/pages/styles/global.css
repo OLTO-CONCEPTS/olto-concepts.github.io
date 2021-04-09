@@ -119,6 +119,9 @@ body {
     #car-display {
         padding-right: 0px !important;
     }
+    .portfolio-title {
+        font-size: 2em !important;
+    }
 }
 
 
@@ -147,9 +150,6 @@ body {
     padding-left:2% !important;
 }
 
-
-
-
 .logo {
     font-family: Manrope, sans-serif;
     background-color: #F2F2F2;
@@ -164,10 +164,6 @@ body {
     color: #fff !important;
     cursor:pointer;
 }
-
-
-
-
 
 .face-imgs img {
     position: absolute;
@@ -372,6 +368,7 @@ input {
 .portfolio-panel {
     background-color:#020202;
     color:#f2f2f2;
+    height: auto !important;
 }
 
 .carousel-control-prev-icon {
@@ -380,4 +377,12 @@ input {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23020202' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.container {
+    max-width: none !important;
+}
+
+.portfolio-title {
+    font-size: 2.3vw;
 }

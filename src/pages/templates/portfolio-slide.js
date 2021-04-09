@@ -22,9 +22,9 @@ function PortfolioSlider(props) {
                                 />
                             </Col>
                         </Row>
-                        <Row className="portfolio-panel my-2 text-center py-2">
+                        <Row className="portfolio-panel my-2 text-center">
                             <Col lg={6} className="my-auto">
-                                <h3 className="mb-0">Annie's Tomorrow Project</h3>
+                                <h3 className="mb-0 py-2  portfolio-title">Annie's Tomorrow Project</h3>
                             </Col>
                             <Col lg={6} className="my-auto">
                                 <p className="mb-0">Website creation, brand identity.</p>
@@ -42,9 +42,9 @@ function PortfolioSlider(props) {
                                 />
                             </Col>
                         </Row>
-                        <Row className="portfolio-panel my-2 text-center py-2">
+                        <Row className="portfolio-panel my-2 text-center">
                             <Col lg={6} className="my-auto">
-                                <h3 className="mb-0">Happyendings917</h3>
+                                <h3 className="mb-0 py-2  portfolio-title">Happyendings917</h3>
                             </Col>
                             <Col lg={6} className="my-auto">
                                 <p className="mb-0">Website creation, ecommerce setup, SEO</p>
@@ -57,14 +57,14 @@ function PortfolioSlider(props) {
                         <Row>
                             <Col id="car-display" className="px-0">
                                 <img className="w-100 car-border"
-                                    src={ex2}
-                                    alt="Second slide"
+                                    src={ex3}
+                                    alt="Third slide"
                                 />
                             </Col>
                         </Row>
-                        <Row className="portfolio-panel my-2 text-center py-2">
+                        <Row className="portfolio-panel my-2 text-center ">
                             <Col lg={6} className="my-auto">
-                                <h3 className="mb-0">The Make Group</h3>
+                                <h3 className="mb-0 py-2 portfolio-title">The Make Group</h3>
                             </Col>
                             <Col lg={6} className="my-auto">
                                 <p className="mb-0">Wordpress style cleanup, web optimization</p>
