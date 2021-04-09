@@ -27,10 +27,10 @@ function Header(props) {
           <h1><a href="/" className="logo-redirect"><div className="logo slatt">OLTO CONCEPTS</div></a></h1>
           <br></br>
 
-          <h1><a href="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></a></h1>
-          <h1><a href="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></a></h1>
-          <h1><a href="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></a></h1>
-          <h1><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h1>
+          <h3><a href="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></a></h3>
+          <h3><a href="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></a></h3>
+          <h3><a href="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></a></h3>
+          <h3><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h3>
 
 
 
@@ -46,7 +46,7 @@ function Header(props) {
                 <Container className="formModal">
                   <form onSubmit={handleSubmit} >
                     
-                    <h1 className="text-white py-2">CONTACT US</h1>
+                    <h3 className="text-white py-2">CONTACT US</h3>
                     
                     
                     <input
@@ -90,8 +90,8 @@ function Header(props) {
 
 
                     <div onClick={handleClose} type="submit" disabled={state.submitting} className="logo-redirect logo slatt">
-                      <h1 className="submit-button">
-                      SUBMIT</h1></div>
+                      <h3 className="submit-button">
+                      SUBMIT</h3></div>
                       
 
                   </form>

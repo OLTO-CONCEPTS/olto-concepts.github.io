@@ -1,5 +1,4 @@
 import React from "react"
-import Carousel from 'react-bootstrap/Carousel'
 
 import Header from "./templates/header"
 import PortfolioSlider from "./templates/portfolio-slide"
