@@ -1,9 +1,10 @@
 import React from "react"
 
-import { Alert, Col, Row, Container, Modal, Button } from 'react-bootstrap/';
-import { useEffect, useState } from "react";
+import { Col, Row, Container, Modal } from 'react-bootstrap/';
+import { useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
 
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 function SmallHeader(props) {
 
@@ -24,13 +25,13 @@ function SmallHeader(props) {
 
         <Container>
           <br class="tohide"></br>
-          <h1><a href="/" className="logo-redirect"><div className="logo slatt">OLTO CONCEPTS</div></a></h1>
+          <h1><AniLink fade to="/" className="logo-redirect"><div className="logo slatt">OLTO CONCEPTS</div></AniLink></h1>
           <br></br>
 
           <div className="tohide">
-            <h3><a href="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></a></h3>
-            <h3><a href="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></a></h3>
-            <h3><a href="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></a></h3>
+            <h3><AniLink fade to="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></AniLink></h3>
+            <h3><AniLink fade to="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></AniLink></h3>
+            <h3><AniLink fade to="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></AniLink></h3>
             <h3><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h3>
           </div>
 

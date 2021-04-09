@@ -6,6 +6,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "react-bootstrap",
+    "gatsby-plugin-transition-link",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
