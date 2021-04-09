@@ -8,42 +8,74 @@ import ex2 from "../../images/screenshots/happy.png"
 import ex3 from "../../images/screenshots/make.png"
 
 function PortfolioSlider(props) {
+
     return (
         <div>
-            <Container className="carousel my-auto mx-auto">
-                <Row>
-                    <Col id="car-display" lg={10} className="pl-0 pr-2">
-                        <Carousel fade indicators={false} className="w-100">
-                            <Carousel.Item>
+            <Carousel fade indicators={false} className="w-100">
+                <Carousel.Item>
+                    <Container className="carousel my-auto mx-auto">
+                        <Row>
+                            <Col id="car-display" className="px-0">
                                 <img className="w-100 car-border"
                                     src={ex1}
                                     alt="First slide"
                                 />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    className="w-100 car-border"
+                            </Col>
+                        </Row>
+                        <Row className="portfolio-panel my-2 text-center py-2">
+                            <Col lg={6} className="my-auto">
+                                <h3 className="mb-0">Annie's Tomorrow Project</h3>
+                            </Col>
+                            <Col lg={6} className="my-auto">
+                                <p className="mb-0">Website creation, brand identity.</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Container className="carousel my-auto mx-auto">
+                        <Row>
+                            <Col id="car-display" className="px-0">
+                                <img className="w-100 car-border"
                                     src={ex2}
                                     alt="Second slide"
                                 />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    className="w-100 car-border"
-                                    src={ex3}
-                                    alt="Third slide"
+                            </Col>
+                        </Row>
+                        <Row className="portfolio-panel my-2 text-center py-2">
+                            <Col lg={6} className="my-auto">
+                                <h3 className="mb-0">Happyendings917</h3>
+                            </Col>
+                            <Col lg={6} className="my-auto">
+                                <p className="mb-0">Website creation, ecommerce setup, SEO</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Container className="carousel my-auto mx-auto">
+                        <Row>
+                            <Col id="car-display" className="px-0">
+                                <img className="w-100 car-border"
+                                    src={ex2}
+                                    alt="Second slide"
                                 />
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                    <Col id="port-sidebar" lg={2} className="portfolio-panel">
-                        fjnsf
-                    </Col>
-                </Row>
-                <Row className="portfolio-panel my-2 text-center">
-                    placeholder
-                </Row>
-            </Container>
+                            </Col>
+                        </Row>
+                        <Row className="portfolio-panel my-2 text-center py-2">
+                            <Col lg={6} className="my-auto">
+                                <h3 className="mb-0">The Make Group</h3>
+                            </Col>
+                            <Col lg={6} className="my-auto">
+                                <p className="mb-0">Wordpress style cleanup, web optimization</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Carousel.Item>
+            </Carousel>
+
+
+
         </div>
     )
 }

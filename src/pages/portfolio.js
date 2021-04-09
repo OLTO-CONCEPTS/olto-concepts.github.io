@@ -22,7 +22,7 @@ function PortfolioPage(props) {
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
         <div className="d-flex flex-column my-auto main-content">
-            <PortfolioSlider></PortfolioSlider>
+        <div className="my-auto"><PortfolioSlider></PortfolioSlider></div>     
         </div>
       </Col>
     </Row>

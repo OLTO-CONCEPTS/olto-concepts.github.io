@@ -150,8 +150,8 @@ const IndexPage = () => {
       </Helmet>
       <Header></Header>
       <Col sm={9} dismissible variant="danger" className="tohide" >
-        <div className="d-flex flex-column my-auto">
-          <PortfolioSlider></PortfolioSlider>
+        <div className="d-flex flex-column vertical-center h-100">
+          <div className="my-auto"><PortfolioSlider></PortfolioSlider></div>     
         </div>
       </Col>
     </Row>
