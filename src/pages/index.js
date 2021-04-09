@@ -143,15 +143,20 @@ const IndexPage = () => {
   return (<>
     {/* ROW ONE */}
     <Row className="sidebar">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>OLTO CONCEPTS</title>
-        <link rel="shortcut icon" type="image/jpg" href={favicon} />
-      </Helmet>
+      <Helmet
+        title="OLTO CONCEPTS"
+        meta={[
+          { name: 'description', content: 'Web development and design solutions for businesses and brands alike.' },
+          { name: 'keywords', content: 'web development, design' },
+        ]}
+        link={[
+          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+        ]}
+      />
       <Header></Header>
       <Col sm={9} dismissible variant="danger" className="tohide" >
         <div className="d-flex flex-column vertical-center h-100">
-          <div className="my-auto"><PortfolioSlider></PortfolioSlider></div>     
+          <div className="my-auto"><PortfolioSlider></PortfolioSlider></div>
         </div>
       </Col>
     </Row>

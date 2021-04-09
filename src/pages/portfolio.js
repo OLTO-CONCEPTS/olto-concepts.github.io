@@ -14,11 +14,16 @@ function PortfolioPage(props) {
   return (<>
     {/* ROW ONE */}
     <Row id="iosHeight" className="sidebar">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>OLTO CONCEPTS</title>
-        <link rel="shortcut icon" type="image/jpg" href={favicon}/>
-      </Helmet>
+    <Helmet
+        title="OLTO CONCEPTS"
+        meta={[
+          { name: 'description', content: "OLTO CONCEPTS work portfolio." },
+          { name: 'keywords', content: 'web development, design' },
+        ]}
+        link={[
+          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+        ]}
+      />
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
         <div className="d-flex flex-column my-auto main-content">
