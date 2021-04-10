@@ -12,12 +12,13 @@ module.exports = {
     "gatsby-plugin-netlify-cache",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-robots-txt",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
         path: "./src/images/",
-        
+        policy: [{ userAgent: 'Googlebot-Image', disallow: './src/images/screenshots' }]
       },
       __key: "images",
     },

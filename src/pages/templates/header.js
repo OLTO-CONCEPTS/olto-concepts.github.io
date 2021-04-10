@@ -53,12 +53,12 @@ function Header(props) {
 
         <Container>
           <br></br>
-          <h1><AniLink fade to="/" className="logo-redirect"><div className="logo slatt">OLTO CONCEPTS</div></AniLink></h1>
+          <h1><AniLink duration={.2} fade to="/" className="logo-redirect"><div className="logo slatt">OLTO CONCEPTS</div></AniLink></h1>
           <br></br>
 
-          <h3><AniLink fade to="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></AniLink></h3>
-          <h3><AniLink fade to="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></AniLink></h3>
-          <h3><AniLink fade to="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></AniLink></h3>
+          <h3><AniLink duration={.2} fade to="/clients" className="text-white text-decoration-none"><div className="slatt">CLIENTS</div></AniLink></h3>
+          <h3><AniLink duration={.2} fade to="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></AniLink></h3>
+          <h3><AniLink duration={.2} fade to="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></AniLink></h3>
           <h3><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h3>
 
 
