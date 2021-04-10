@@ -6,5 +6,6 @@
 <url> <loc>https://www.oltoconcepts.com/portfolio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.oltoconcepts.com/templates/header/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.oltoconcepts.com/templates/portfolio-slide/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.oltoconcepts.com/templates/slide-item/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.oltoconcepts.com/templates/smallheader/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
