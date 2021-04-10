@@ -27,7 +27,7 @@ function AboutPage(props) {
         <div class="main-content about-grey text-justify d-flex flex-column" >
           <div class="my-auto">
             <div class="face-imgs">
-              <img class="mx-auto p-2" src={frontBack}></img>
+              <img class="mx-auto p-2" src={frontBack} alt="Morphing image of Oliver Buckley and Tomás Carlson."></img>
             </div>
             <div className="p-4 about-box text-white mx-auto my-auto content-box">
               <h1 className="logo">OLTO CONCEPTS</h1>

@@ -18,13 +18,13 @@ function PortfolioSlider(props) {
                             <Col id="car-display" className="px-0">
                                 <img className="w-100 car-border"
                                     src={ex1}
-                                    alt="First slide"
+                                    alt="Annie's Tommorrow Project website screenshot"
                                 />
                             </Col>
                         </Row>
                         <Row className="portfolio-panel my-2 text-center">
                             <Col lg={6} className="my-auto">
-                                <h3 className="mb-0 py-2  portfolio-title">Annie's Tomorrow Project</h3>
+                                <h3 className="mb-0 py-2 website portfolio-title">Annie's Tomorrow Project</h3>
                             </Col>
                             <Col lg={6} className="my-auto">
                                 <p className="mb-0">Website creation, brand identity</p>
@@ -38,7 +38,7 @@ function PortfolioSlider(props) {
                             <Col id="car-display" className="px-0">
                                 <img className="w-100 car-border"
                                     src={ex2}
-                                    alt="Second slide"
+                                    alt="Happyendings917 website screenshot"
                                 />
                             </Col>
                         </Row>
@@ -58,7 +58,7 @@ function PortfolioSlider(props) {
                             <Col id="car-display" className="px-0">
                                 <img className="w-100 car-border"
                                     src={ex3}
-                                    alt="Third slide"
+                                    alt="The Make Group website screenshot"
                                 />
                             </Col>
                         </Row>

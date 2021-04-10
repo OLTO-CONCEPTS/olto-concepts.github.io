@@ -34,25 +34,25 @@ function ClientsPage(props) {
       <Col sm={9} dismissible variant="danger">
         <div id="need-scroll" className="main-content d-flex flex-row flex-wrap align-content-center justify-content-center">
           <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={who} ></Logoicon>
+            <Logoicon link={who} alt="WHO logo"></Logoicon>
           </a>
           <a href="https://varfaj.com/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={varfaj}></Logoicon>
+            <Logoicon link={varfaj} alt="Varfaj Partners logo"></Logoicon>
           </a>
           <a href="https://happyendings917.com/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={he}></Logoicon>
+            <Logoicon link={he} alt="Happyendings917 logo"></Logoicon>
           </a>
           <a href="https://roughsimmons.jp/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={rough}></Logoicon>
+            <Logoicon link={rough} alt="Rough Simmons logo"></Logoicon>
           </a>
           <a href="http://wrbbradio.org/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={wrbb}></Logoicon>
+            <Logoicon link={wrbb} alt="WRBB 104.9FM logo"></Logoicon>
           </a>
           <a href="https://themakegroup.com/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={maker}></Logoicon>
+            <Logoicon link={maker} alt="The Make Group logo"></Logoicon>
           </a>
           <a href="https://www.aratikreibich.com/" target="_blank" rel="noopener noreferrer">
-            <Logoicon link={arati}></Logoicon>
+            <Logoicon link={arati} alt="Arati For Congress logo"></Logoicon>
           </a>
         </div>
       </Col>
