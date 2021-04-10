@@ -1,7 +1,7 @@
 import React from "react"
 import Carousel from 'react-bootstrap/Carousel'
 
-import { Col, Row, Container } from 'react-bootstrap/';
+import SlideItem from './slide-item';
 
 import ex1 from "../../images/screenshots/annie.png"
 import ex2 from "../../images/screenshots/happy.png"
@@ -13,69 +13,30 @@ function PortfolioSlider(props) {
         <div>
             <Carousel fade indicators={false} className="w-100">
                 <Carousel.Item>
-                    <Container className="carousel my-auto mx-auto">
-                        <Row>
-                            <Col id="car-display" className="px-0">
-                                <img className="w-100 car-border"
-                                    src={ex1}
-                                    alt="Annie's Tommorrow Project website screenshot"
-                                />
-                            </Col>
-                        </Row>
-                        <Row className="portfolio-panel my-2 text-center">
-                            <Col lg={6} className="my-auto">
-                                <h3 className="mb-0 py-2 website portfolio-title">Annie's Tomorrow Project</h3>
-                            </Col>
-                            <Col lg={6} className="my-auto">
-                                <p className="mb-0">Website creation, brand identity</p>
-                            </Col>
-                        </Row>
-                    </Container>
+                    <SlideItem
+                        src={ex1}
+                        alt="Annie's Tommorrow Project website screenshot"
+                        title="Annie's Tomorrow Project"
+                        desc="Website creation, brand identity"
+                    />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Container className="carousel my-auto mx-auto">
-                        <Row>
-                            <Col id="car-display" className="px-0">
-                                <img className="w-100 car-border"
-                                    src={ex2}
-                                    alt="Happyendings917 website screenshot"
-                                />
-                            </Col>
-                        </Row>
-                        <Row className="portfolio-panel my-2 text-center">
-                            <Col lg={6} className="my-auto">
-                                <h3 className="mb-0 py-2  portfolio-title">Happyendings917</h3>
-                            </Col>
-                            <Col lg={6} className="my-auto">
-                                <p className="mb-0">Website creation, ecommerce setup, SEO</p>
-                            </Col>
-                        </Row>
-                    </Container>
+                    <SlideItem
+                        src={ex2}
+                        alt="Happyendings917 screenshot"
+                        title="Happyendings917"
+                        desc="Website creation, ecommerce setup, SEO"
+                    />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Container className="carousel my-auto mx-auto">
-                        <Row>
-                            <Col id="car-display" className="px-0">
-                                <img className="w-100 car-border"
-                                    src={ex3}
-                                    alt="The Make Group website screenshot"
-                                />
-                            </Col>
-                        </Row>
-                        <Row className="portfolio-panel my-2 text-center ">
-                            <Col lg={6} className="my-auto">
-                                <h3 className="mb-0 py-2 portfolio-title">The Make Group</h3>
-                            </Col>
-                            <Col lg={6} className="my-auto">
-                                <p className="mb-0">Wordpress style cleanup, web optimization</p>
-                            </Col>
-                        </Row>
-                    </Container>
+                    <SlideItem
+                        src={ex3}
+                        alt="Make Group website screenshot"
+                        title="The Make Group"
+                        desc="Wordpress style cleanup, web optimization"
+                    />
                 </Carousel.Item>
             </Carousel>
-
-
-
         </div>
     )
 }
