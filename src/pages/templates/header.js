@@ -38,6 +38,17 @@ function Header(props) {
           <meta property="twitter:url" content="https://oltoconcepts.com/" />
           <meta property="twitter:image" content={hqicon} />
           <link rel="shortcut icon" type="image/jpg" href={favicon}/>
+          <script type="application/ld+json">
+            {
+              `{
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "url": "http://www.oltoconcepts.com",
+              "logo": "https://oltoconcepts.com/static/hqlogo-b48d379513a459dce58e7bdaf5c3c877.jpg",
+              "name": "OLTO CONCEPTS"
+            }`
+            }
+          </script>
         </Helmet>
 
         <Container>
