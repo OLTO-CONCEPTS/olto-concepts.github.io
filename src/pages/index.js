@@ -146,12 +146,12 @@ const IndexPage = () => {
       <Helmet>
         <title>OLTO CONCEPTS</title>
         <meta name="title" content="OLTO CONCEPTS" />
-        <meta name="description" content="Web development and design solutions for businesses and brands alike." />
+        <meta name="description" content="Web development and design solutions for businesses, brands, and creatives alike." />
 
         <meta property="og:title" content="OLTO CONCEPTS" />
-        <meta property="og:description" content="Web development and design solutions for businesses and brands alike." />
+        <meta property="og:description" content="Web development and design solutions for businesses, brands, and creatives alike." />
         <meta property="twitter:title" content="OLTO CONCEPTS" />
-        <meta property="twitter:description" content="Web development and design solutions for businesses and brands alike." />
+        <meta property="twitter:description" content="Web development and design solutions for businesses, brands, and creatives alike." />
       </Helmet>
       <Header></Header>
       <Col sm={9} dismissible variant="danger" className="tohide" >
