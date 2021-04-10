@@ -20,16 +20,16 @@ function ClientsPage(props) {
 
   return (<>
     <Row id="iosHeight" className="sidebar">
-    <Helmet
-        title="OLTO CONCEPTS: CLIENTS"
-        meta={[
-          { name: 'description', content: "OLTO CONCEPT's previous clients." },
-          { name: 'keywords', content: 'web development, design' },
-        ]}
-        link={[
-          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-        ]}
-      />
+      <Helmet>
+        <title>OLTO CONCEPTS: Clients</title>
+        <meta name="title" content="OLTO CONCEPTS: Clients" />
+        <meta name="description" content="A summary of past OLTO CONCEPTS clients." />
+
+        <meta property="og:title" content="OLTO CONCEPTS: Clients" />
+        <meta property="og:description" content="A summary of past OLTO CONCEPTS clients." />
+        <meta property="twitter:title" content="OLTO CONCEPTS: Clients" />
+        <meta property="twitter:description" content="A summary of past OLTO CONCEPTS clients." />
+      </Helmet>
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
         <div id="need-scroll" className="main-content d-flex flex-row flex-wrap align-content-center justify-content-center">

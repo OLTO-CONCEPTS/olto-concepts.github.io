@@ -6,6 +6,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "react-bootstrap",
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-transition-link",
     "gatsby-plugin-netlify-cache",
     "gatsby-transformer-sharp",

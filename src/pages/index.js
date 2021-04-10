@@ -143,16 +143,16 @@ const IndexPage = () => {
   return (<>
     {/* ROW ONE */}
     <Row className="sidebar">
-      <Helmet
-        title="OLTO CONCEPTS"
-        meta={[
-          { name: 'description', content: 'Web development and design solutions for businesses and brands alike.' },
-          { name: 'keywords', content: 'web development, design' },
-        ]}
-        link={[
-          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-        ]}
-      />
+      <Helmet>
+        <title>OLTO CONCEPTS</title>
+        <meta name="title" content="OLTO CONCEPTS" />
+        <meta name="description" content="Web development and design solutions for businesses and brands alike." />
+
+        <meta property="og:title" content="OLTO CONCEPTS" />
+        <meta property="og:description" content="Web development and design solutions for businesses and brands alike." />
+        <meta property="twitter:title" content="OLTO CONCEPTS" />
+        <meta property="twitter:description" content="Web development and design solutions for businesses and brands alike." />
+      </Helmet>
       <Header></Header>
       <Col sm={9} dismissible variant="danger" className="tohide" >
         <div className="d-flex flex-column vertical-center h-100">

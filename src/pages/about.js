@@ -10,16 +10,16 @@ import favicon from "../images/favicon.jpg"
 function AboutPage(props) {
   return (
   <Row id="iosHeight" className="sidebar about-back">
-    <Helmet
-        title="OLTO CONCEPTS: ABOUT"
-        meta={[
-          { name: 'description', content: "About OLTO CONCEPTS." },
-          { name: 'keywords', content: 'web development, design' },
-        ]}
-        link={[
-          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-        ]}
-      />
+      <Helmet>
+        <title>OLTO CONCEPTS: About</title>
+        <meta name="title" content="OLTO CONCEPTS: About" />
+        <meta name="description" content="About the freelance creative partnership OLTO CONCEPTS." />
+
+        <meta property="og:title" content="OLTO CONCEPTS: About" />
+        <meta property="og:description" content="About the freelance creative partnership OLTO CONCEPTS." />
+        <meta property="twitter:title" content="OLTO CONCEPTS: Portfolio" />
+        <meta property="twitter:description" content="About the freelance creative partnership OLTO CONCEPTS." />
+      </Helmet>
     <SmallHeader></SmallHeader>
 
     <Col sm={9} dismissible variant="danger">

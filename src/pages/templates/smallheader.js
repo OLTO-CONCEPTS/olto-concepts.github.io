@@ -3,8 +3,15 @@ import React from "react"
 import { Col, Row, Container, Modal } from 'react-bootstrap/';
 import { useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
+import { Helmet } from "react-helmet"
+
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+
+import hqicon from "../../images/hqlogo.jpg"
+import favicon from "../../images/favicon.jpg"
+
+
 
 function SmallHeader(props) {
 
@@ -22,7 +29,16 @@ function SmallHeader(props) {
 
 
       <Col sm={3} dismissible variant="danger" id="sidebar-tag" className="sidebar-content w-10">
+        <Helmet>
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://oltoconcepts.com/" />
+          <meta property="og:image" content={hqicon} />
 
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://oltoconcepts.com/" />
+          <meta property="twitter:image" content={hqicon} />
+          <link rel="shortcut icon" type="image/jpg" href={favicon}/>
+        </Helmet>
         <Container>
           <br class="tohide"></br>
           <h1><AniLink fade to="/" className="logo-redirect"><div className="logo slatt">OLTO CONCEPTS</div></AniLink></h1>
