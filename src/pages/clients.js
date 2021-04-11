@@ -30,7 +30,7 @@ function ClientsPage(props) {
       </Helmet>
       <SmallHeader></SmallHeader>
       <Col sm={9} dismissible variant="danger">
-        <div id="need-scroll" className="main-content d-flex flex-row flex-wrap align-content-center justify-content-center">
+        <div id="need-scroll" className="main-content transition1 d-flex flex-row flex-wrap align-content-center justify-content-center">
           <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">
             <Logoicon link={who} alt="WHO logo"></Logoicon>
           </a>

@@ -6,7 +6,7 @@ function SlideItem(props) {
   return (
     <>
       {/* ROW ONE */}
-      <Container className="carousel my-auto mx-auto">
+      <Container className="transition1 carousel my-auto mx-auto">
         <Row>
           <Col id="car-display" className="px-0">
             <img className="w-100 car-border"

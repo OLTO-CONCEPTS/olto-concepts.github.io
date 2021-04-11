@@ -11,7 +11,7 @@ function PortfolioSlider(props) {
 
     return (
         <div>
-            <Carousel fade indicators={false} className="w-100">
+            <Carousel fade indicators={false} className="w-100 transition1">
                 <Carousel.Item>
                     <SlideItem
                         src={ex1}

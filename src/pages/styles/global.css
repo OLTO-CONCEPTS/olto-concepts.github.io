@@ -131,16 +131,23 @@ body {
     color:black;
 }
 
-h1 p {
+h1, h3, p {
     font-family: Manrope, sans-serif;
     font-style: normal;
 }
+
 
 body {
     background-color: #F2F2F2 !important;
     background: #F2F2F2 url("../../images/pattern.png") repeat;
     transition: 1s;
 }
+
+.transition1>a>div,.transition1 {
+    transition: 1s;
+}
+
+
 
 .sidebar-content {
     background-color:#020202;
@@ -176,7 +183,6 @@ body {
     width: 100%;
     border: solid 2px #020202;
 }
-
 
 .icon-logo {
     margin-left:1%;
