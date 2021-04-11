@@ -7,8 +7,6 @@ import { Helmet } from "react-helmet"
 import { Col, Row} from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import favicon from "../images/favicon.jpg"
-
 // markup
 function PortfolioPage(props) {
   return (<>

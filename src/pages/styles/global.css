@@ -30,8 +30,9 @@
 }
 
 .fixed-bottom {
-    padding-left:2% !important;
-} 
+    padding-left: 2vh !important;
+    margin-right: auto;
+}
 
 html,
 body {
@@ -52,6 +53,9 @@ body {
     .tohide {
         display: none !important;
      }
+    .socials  {
+        font-size: 2em;
+    }
     #sidebar-tag {
         height:80px !important;
     }
@@ -90,19 +94,6 @@ body {
         font-size: 1.5vw;
     }
 }
-
-@supports (-webkit-touch-callout: none) {
-    #iosHeight {
-        height: -webkit-fill-available !important;
-    }
-    .face-imgs {
-        display: none !important;
-    }
-    .about-back {
-        background-image: url("../../images/backandforth.gif");
-        background-size: cover;
-    }
-  }
 
 @media (min-width:1520px)  { 
     p {
@@ -401,4 +392,23 @@ input {
 
 .portfolio-title {
     font-size: 2.3vw;
+}
+
+
+@supports (-webkit-touch-callout: none) {
+    #iosHeight {
+        height: -webkit-fill-available !important;
+        overflow-y: hidden;
+    }
+    .face-imgs {
+        display: none !important;
+    }
+    .about-back {
+        background-image: url("../../images/backandforth.gif");
+        background-size: cover;
+    }
+    .footer-thing {
+        bottom: 4% !important;
+        overflow: hidden;
+    }
 }

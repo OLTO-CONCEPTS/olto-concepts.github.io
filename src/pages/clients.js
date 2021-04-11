@@ -13,13 +13,11 @@ import arati from "../images/clients/arati.png"
 
 import Logoicon from "../components/logo-icon"
 
-import favicon from "../images/favicon.jpg"
-
 
 function ClientsPage(props) {
 
   return (<>
-    <Row id="iosHeight" className="sidebar">
+    <Row className="sidebar">
       <Helmet>
         <title>OLTO CONCEPTS: Clients</title>
         <meta name="title" content="OLTO CONCEPTS: Clients" />

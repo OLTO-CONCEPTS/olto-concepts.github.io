@@ -64,7 +64,7 @@ function Header(props) {
 
 
 
-          <div className="fixed-bottom">
+          <div className="position-absolute mt-auto footer-thing w-100" style={{bottom: 0}}>
             <a className="mr-3 mb-2 socials" href="https://www.linkedin.com/company/olto-concepts" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>

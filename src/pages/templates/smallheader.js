@@ -59,16 +59,16 @@ function SmallHeader(props) {
             <h3><AniLink duration={.2} fade to="/portfolio" className="text-white text-decoration-none"><div className="slatt">PORTFOLIO</div></AniLink></h3>
             <h3><AniLink duration={.2} fade to="/about" className="text-white text-decoration-none"><div className="slatt">ABOUT</div></AniLink></h3>
             <h3><a className="text-white text-decoration-none"><div className="slatt" onClick={handleShow}>CONTACT</div></a></h3>
-          </div>
 
-          <div className="fixed-bottom">
-            <a className="mr-3 mb-2 socials" href="https://www.linkedin.com/company/olto-concepts" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin/>
-            </a>
-            <a className="mb-2 socials" href="https://www.instagram.com/oltoconcepts/" target="_blank" rel="noopener noreferrer">
-              <FaInstagram/>
-            </a>
-            <p id="bottom-text" className="text-white">© OLTO CONCEPTS, 2021</p>
+            <div className="position-absolute mt-auto" style={{ bottom: 0 }}>
+              <a className="mr-3 mb-2 socials" href="https://www.linkedin.com/company/olto-concepts" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin />
+              </a>
+              <a className="mb-2 socials" href="https://www.instagram.com/oltoconcepts/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+              <p id="bottom-text" className="text-white">© OLTO CONCEPTS, 2021</p>
+            </div>
           </div>
 
           <>
