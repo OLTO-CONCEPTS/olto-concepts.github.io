@@ -5,11 +5,14 @@ import { useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
 import { Helmet } from "react-helmet"
 
-
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import hqicon from "../../images/hqlogo.jpg"
 import favicon from "../../images/favicon.jpg"
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 function Header(props) {
@@ -37,7 +40,7 @@ function Header(props) {
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://oltoconcepts.com/" />
           <meta property="twitter:image" content={hqicon} />
-          <link rel="shortcut icon" type="image/jpg" href={favicon}/>
+          <link rel="shortcut icon" type="image/jpg" href={favicon} />
           <script type="application/ld+json">
             {
               `{
@@ -64,6 +67,12 @@ function Header(props) {
 
 
           <div className="fixed-bottom">
+            <a href="https://www.linkedin.com/company/olto-concepts">
+              <FontAwesomeIcon icon={faLinkedin} className="mr-3 mb-2 socials"></FontAwesomeIcon>
+            </a>
+            <a href="https://www.instagram.com/oltoconcepts/">
+              <FontAwesomeIcon icon={faInstagram} className="mb-2 socials"></FontAwesomeIcon>
+            </a>
             <p id="bottom-text" className="text-white">© OLTO CONCEPTS, 2021</p>
           </div>
 

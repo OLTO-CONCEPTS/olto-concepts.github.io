@@ -9,7 +9,7 @@
 
 @media (min-width:575px)  { 
     body {overflow: hidden ;}
-    .logo, .slatt  {
+    .logo, .slatt, .socials  {
         font-size: 3vw;
     }
     div {
@@ -165,6 +165,15 @@ body {
     cursor:pointer;
 }
 
+.socials {
+    color: #fff;
+}
+
+.socials:hover  {
+    animation: iconHover 2s ease-out 0s infinite alternate none;
+    cursor:pointer;
+}
+
 .face-imgs img {
     position: absolute;
     width: 100%;
@@ -205,6 +214,15 @@ body {
     }
     100%{
         background: #CE8147;
+    }
+}
+
+@keyframes iconHover {
+    0.0%{
+        color: #88292F;
+    }
+    100%{
+        color: #CE8147;
     }
 }
 
@@ -327,7 +345,6 @@ input {
     background-color: #020202;
 }
 
-
 .car-border {
     border: solid 10px #020202;
 }
@@ -348,7 +365,6 @@ input {
 ::-moz-selection {
     background: #CE8147;
 }
-
 
 .text-box {
     color:Black;
