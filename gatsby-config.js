@@ -13,7 +13,6 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-robots-txt",
-    "gatsby-plugin-fontawesome-css",
     {
       resolve: "gatsby-source-filesystem",
       options: {

@@ -10,8 +10,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import hqicon from "../../images/hqlogo.jpg"
 import favicon from "../../images/favicon.jpg"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function SmallHeader(props) {
 
@@ -63,11 +62,11 @@ function SmallHeader(props) {
           </div>
 
           <div className="fixed-bottom">
-            <a href="https://www.linkedin.com/company/olto-concepts">
-              <FontAwesomeIcon icon={faLinkedin} className="mr-3 mb-2 socials"></FontAwesomeIcon>
+            <a className="mr-3 mb-2 socials" href="https://www.linkedin.com/company/olto-concepts" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin/>
             </a>
-            <a href="https://www.instagram.com/oltoconcepts/">
-              <FontAwesomeIcon icon={faInstagram} className="mb-2 socials"></FontAwesomeIcon>
+            <a className="mb-2 socials" href="https://www.instagram.com/oltoconcepts/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram/>
             </a>
             <p id="bottom-text" className="text-white">© OLTO CONCEPTS, 2021</p>
           </div>
