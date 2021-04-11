@@ -17,7 +17,7 @@ function PortfolioSlider(props) {
                         src={ex1}
                         alt="Annie's Tommorrow Project website screenshot"
                         title="Annie's Tomorrow Project"
-                        desc="Website creation, brand identity"
+                        desc="Developed a webfront for the Annie IP holding group, Annie's Tomorrow Project, a hub for the organization's philanthropic and general Annie content."
                     />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -25,7 +25,7 @@ function PortfolioSlider(props) {
                         src={ex2}
                         alt="Happyendings917 screenshot"
                         title="Happyendings917"
-                        desc="Website creation, ecommerce setup, SEO"
+                        desc="Developed a web store for the fashion collective Happyendings917 to pieces from their archive as well as upcoming artistic ventures from the team."
                     />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -33,7 +33,7 @@ function PortfolioSlider(props) {
                         src={ex3}
                         alt="Make Group website screenshot"
                         title="The Make Group"
-                        desc="Wordpress style cleanup, web optimization"
+                        desc="Reoptimization and cleanup of The Make Group's Wordpress website, to be used as a portfolio of their past clients."
                     />
                 </Carousel.Item>
             </Carousel>

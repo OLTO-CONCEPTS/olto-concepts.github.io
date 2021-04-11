@@ -27,6 +27,9 @@
     .carousel {
         width: 60vw !important;
     }
+    .portfolio-panel {
+        height: 16vh !important;
+    }
 }
 
 .fixed-bottom {
@@ -86,6 +89,9 @@ body {
         height: 45vw !important;
         width: 45vw !important;
         background: #020202;
+    }
+    .portfolio-panel {
+        height: auto !important;
     }
 }
 
@@ -372,12 +378,6 @@ input {
     font-size: 1.4vw;
 }
 
-.portfolio-panel {
-    background-color:#020202;
-    color:#f2f2f2;
-    height: auto !important;
-}
-
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23020202' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -411,4 +411,9 @@ input {
         bottom: 4% !important;
         overflow: hidden;
     }
+}
+
+.portfolio-panel {
+    background-color:#020202;
+    color:#f2f2f2;
 }

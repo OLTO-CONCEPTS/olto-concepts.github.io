@@ -16,10 +16,10 @@ function SlideItem(props) {
           </Col>
         </Row>
         <Row className="portfolio-panel my-2 text-center">
-          <Col lg={6} className="my-auto">
-            <h3 className="mb-0 py-2  portfolio-title">{props.title}</h3>
+          <Col lg={5} className="my-auto">
+            <h3 className="mb-0 portfolio-title">{props.title}</h3>
           </Col>
-          <Col lg={6} className="my-auto">
+          <Col lg={7} className="my-auto">
             <p className="mb-0">{props.desc}</p>
           </Col>
         </Row>
