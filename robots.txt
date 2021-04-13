@@ -1,4 +1,5 @@
-User-agent: *
-Allow: /
+User-agent: Googlebot-Image
+Allow: ./src/images/hqlogo.jpg
+Disallow: ./src/images
 Sitemap: https://www.oltoconcepts.com/sitemap.xml
 Host: https://www.oltoconcepts.com
