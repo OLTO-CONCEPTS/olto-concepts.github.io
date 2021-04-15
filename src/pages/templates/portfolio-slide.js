@@ -14,6 +14,7 @@ function PortfolioSlider(props) {
             <Carousel fade indicators={false} className="w-100 transition1">
                 <Carousel.Item>
                     <SlideItem
+                        mission={props.mission}
                         src={ex1}
                         alt="Annie's Tommorrow Project website screenshot"
                         title="Annie's Tomorrow Project"
@@ -22,14 +23,16 @@ function PortfolioSlider(props) {
                 </Carousel.Item>
                 <Carousel.Item>
                     <SlideItem
+                        mission={props.mission}
                         src={ex2}
                         alt="Happyendings917 screenshot"
                         title="Happyendings917"
-                        desc="Developed a web store for the fashion collective Happyendings917 to pieces from their archive as well as upcoming artistic ventures from the team."
+                        desc="Developed a web store for the fashion collective Happyendings917 to showcase pieces from their archive as well as upcoming artistic ventures from the team."
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <SlideItem
+                        mission={props.mission}
                         src={ex3}
                         alt="Make Group website screenshot"
                         title="The Make Group"

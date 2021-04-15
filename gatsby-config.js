@@ -18,9 +18,14 @@ module.exports = {
       options: {
         name: "images",
         path: "./src/images/",
-        policy: [{ userAgent: 'Googlebot-Image', disallow: './src/images/screenshots' }]
       },
       __key: "images",
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.oltoconcepts.com',
+        sitemap: 'https://www.oltoconcepts.com/sitemap.xml',
+        policy: [{ userAgent: 'Googlebot-Image', disallow: './src/images', allow: './src/images/hqlogo.jpg' }]
+      }
     },
   ],
 };

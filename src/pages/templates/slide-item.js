@@ -15,14 +15,24 @@ function SlideItem(props) {
             />
           </Col>
         </Row>
-        <Row className="portfolio-panel my-2 text-center">
-          <Col lg={5} className="my-auto">
-            <h3 className="mb-0 portfolio-title">{props.title}</h3>
-          </Col>
-          <Col lg={7} className="my-auto">
-            <p className="mb-0">{props.desc}</p>
-          </Col>
-        </Row>
+        {props.mission &&
+          <Row className="portfolio-panel my-2 text-center">
+            <Col className="my-auto">
+              <h2 className="mb-0">We provide web development and design solutions for businesses, brands, and creatives alike.</h2>
+            </Col>
+          </Row>
+        }
+        {!props.mission &&
+          <Row className="portfolio-panel my-2 text-center">
+            <Col lg={5} className="my-auto">
+              <h3 className="mb-0 portfolio-title">{props.title}</h3>
+            </Col>
+            <Col lg={7} className="my-auto">
+              <p className="mb-0">{props.desc}</p>
+            </Col>
+          </Row>
+        }
+
       </Container>
     </>
   )

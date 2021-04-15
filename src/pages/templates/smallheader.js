@@ -79,11 +79,11 @@ function SmallHeader(props) {
                 <Container className="formModal">
                   <form onSubmit={handleSubmit} >
 
-                    <h3 className="text-white py-2">CONTACT US</h3>
+                    <h3 className="text-white slatt-nohover py-2">CONTACT US</h3>
 
 
                     <input
-                      id="email"
+                      id="bottom-text"
                       type="email"
                       name="email"
                       placeholder="Email"
@@ -104,7 +104,7 @@ function SmallHeader(props) {
                         <br></br>
 
                         <textarea className="w-100"
-                          id="message"
+                          id="bottom-text"
                           name="message"
                           placeholder="Message"
                         >
@@ -123,7 +123,7 @@ function SmallHeader(props) {
 
 
                     <div onClick={handleClose} type="submit" disabled={state.submitting} className="logo-redirect logo slatt">
-                      <h3 className="submit-button">
+                      <h3 className="submit-button slatt-nohover">
                         SUBMIT</h3></div>
 
 

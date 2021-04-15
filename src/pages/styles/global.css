@@ -7,10 +7,18 @@
     font-style: normal;
 }
 
+#need-scroll {
+    overflow: auto !important;
+}
+
+
 @media (min-width:575px)  { 
     body {overflow: hidden ;}
-    .logo, .slatt, .socials  {
+    .logo, .slatt, .socials, .slatt-nohover  {
         font-size: 3vw;
+    }
+    h2 {
+        font-size: 3vw !important;
     }
     div {
         overflow: hidden;
@@ -30,6 +38,26 @@
     .portfolio-panel {
         height: 16vh !important;
     }
+}
+
+@media (min-width:1199px)  { 
+    .client-port {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width:800px)  { 
+    h2 {
+        font-size: 2vw !important;
+    }
+}
+
+.client-container {
+    width: 50vw; 
+}
+
+.client-pad {
+    margin-top: 65vh;
 }
 
 .fixed-bottom {
@@ -131,11 +159,10 @@ body {
     color:black;
 }
 
-h1, h3, p {
+h1, h3, p, h2 {
     font-family: Manrope, sans-serif;
     font-style: normal;
 }
-
 
 body {
     background-color: #F2F2F2 !important;
@@ -146,8 +173,6 @@ body {
 .transition1>a>div,.transition1 {
     transition: 1s;
 }
-
-
 
 .sidebar-content {
     background-color:#020202;
@@ -329,6 +354,11 @@ input {
     border: solid 5px #f2f2f2 !important;
 }
 
+.modal-dialog {
+    width: 50vw !important;
+    max-width: 50vw !important;
+}
+
 .about-box {
     max-width: 55vw;
 }
@@ -423,3 +453,4 @@ input {
     background-color:#020202;
     color:#f2f2f2;
 }
+

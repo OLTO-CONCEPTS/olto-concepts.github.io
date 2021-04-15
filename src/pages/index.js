@@ -152,7 +152,7 @@ const IndexPage = () => {
       <Header></Header>
       <Col sm={9} dismissible variant="danger" className="tohide" >
         <div className="d-flex flex-column vertical-center h-100 tohide">
-          <div className="my-auto tohide"><PortfolioSlider></PortfolioSlider></div>
+          <div className="my-auto tohide"><PortfolioSlider mission={true}></PortfolioSlider></div>
         </div>
       </Col>
     </Row>
