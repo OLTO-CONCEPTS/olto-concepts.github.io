@@ -3,9 +3,9 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import SlideItem from './slide-item';
 
-import ex1 from "../../images/screenshots/annie.png"
-import ex2 from "../../images/screenshots/happy.png"
-import ex3 from "../../images/screenshots/make.png"
+import ex1 from "../../images/screenshots/annie.jpg"
+import ex2 from "../../images/screenshots/happy.jpg"
+import ex3 from "../../images/screenshots/make.jpg"
 
 function PortfolioSlider(props) {
 
