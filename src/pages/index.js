@@ -154,6 +154,7 @@ const IndexPage = () => {
         <div className="d-flex flex-column vertical-center h-100 tohide">
           <div className="my-auto tohide"><PortfolioSlider mission={true}></PortfolioSlider></div>
         </div>
+        <p className="d-none">OLTO CONCEPTS is a creative partnership between Oliver Buckley and Tomás Carlson; working with businesses, brands, and creatives alike to provide web development and design solutions.</p>
       </Col>
     </Row>
   </>

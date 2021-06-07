@@ -18,7 +18,7 @@ function SlideItem(props) {
         {props.mission &&
           <Row className="portfolio-panel my-2 text-center">
             <Col className="my-auto">
-              <h2 className="mb-0">We provide web development and design solutions for businesses, brands, and creatives alike.</h2>
+              <h2 className="mb-0" data-nosnippet>We provide web development and design solutions for businesses, brands, and creatives alike.</h2>
             </Col>
           </Row>
         }
